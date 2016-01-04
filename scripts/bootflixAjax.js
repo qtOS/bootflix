@@ -115,7 +115,7 @@ app.MovieModel = function MovieModel(options) {
  * movie view constructor
 
  * @ param options  - options object
-
+**/
 
 app.MovieView = function MovieView(options) {
 
