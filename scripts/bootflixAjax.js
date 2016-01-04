@@ -43,6 +43,7 @@ app.getMovieById = function getMovieById(id) {
     }
   };
   $.ajax($idParams);
+
 }
 
 /**
@@ -106,13 +107,16 @@ app.MovieModel = function MovieModel(options) {
   this.plot = options['Plot'];
   this.year = options['Year'];
   this.genre = options['Genre']
+
 }
 
 /**
  * app.MovieView
  * movie view constructor
+
  * @ param options  - options object
- */
+
+
 app.MovieView = function MovieView(options) {
 
   // options should contain the `model` for which the view is using
